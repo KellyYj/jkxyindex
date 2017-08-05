@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>css3动画练习</title>
+    <style type="text/css" rel="stylesheet">
+        h1{
+            clear: both;paddint-top:10px;
+            font-size: 16px;
+            font-family: arial;
+        }
+        .test{
+            zoom: 1;
+            width: 700px;margin:0;
+            padding:0;
+            list-style: none;
+        }
+        .test li{
+            float: left;
+            margin:20px 30px;
+            border: 1px solid #000;
+
+        }
+        .test li p{
+            width: 300px;
+            height: 100px;
+            margin:0;
+            background: #dddddd;
+        }
+        .test .matrix{
+            transform: matrix(1,0,0,1,30,30);
+        }
+        .test .matrix1{
+            transform: matrix(1,0,0,5,0,0);
+        }
+    </style>
+</head>
+<body>
+    <h1>矩阵变换:matrix()</h1>
+
+<ul class="test">
+    <li class="matrix">
+        <p>transform:matrix(1,0,0,0,30,30)</p>
+    </li>
+
+    <li class="matrix1">
+        <p>transform:matrix(12,0,0,5,0,0)</p>
+    </li>
+</ul>
+
+
+</body>
+</html>
